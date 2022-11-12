@@ -1,0 +1,86 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+main {
+    font-size: 15px;
+    background: hsl(0, 0%, 95%);
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+
+p,
+button {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.card-one {
+    background: hsl(31, 77%, 52%);
+}
+
+.card-two {
+    background: hsl(184, 100%, 22%);
+}
+
+.card-three {
+    background: hsl(179, 100%, 13%);
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+}
+
+.btn-one {
+    color: hsl(31, 77%, 52%);
+    padding: 5px 20px;
+}
+
+.btn-one:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: solid white;
+    padding: 5px 20px;
+}
+
+.btn-two {
+    color: hsl(184, 100%, 22%);
+    padding: 5px 20px;
+}
+
+.btn-two:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: solid white;
+    padding: 5px 20px;
+
+}
+
+.btn-three {
+    color: hsl(179, 100%, 13%);
+    padding: 5px 20px;
+}
+
+.btn-three:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: solid white;
+    padding: 5px 20px;
+}
