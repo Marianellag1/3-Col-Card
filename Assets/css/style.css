@@ -1,13 +1,4 @@
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
-main {
+body {
     font-size: 15px;
     background: hsl(0, 0%, 95%);
 }
@@ -15,6 +6,8 @@ main {
 h1 {
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    margin: 25px 0;
 }
 
 p,
@@ -23,8 +16,23 @@ button {
     font-weight: 400;
 }
 
+img {
+    margin: 20px 0;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 20px 0 20px 0;
+}
+
+.container {
+    width: 50rem;
+    margin-top: 120px;
+}
+
 .card-one {
     background: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
 }
 
 .card-two {
@@ -33,19 +41,14 @@ button {
 
 .card-three {
     background: hsl(179, 100%, 13%);
-}
-
-h1 {
-    color: hsl(0, 0%, 95%);
-}
-
-p {
-    color: hsla(0, 0%, 100%, 0.75);
+    border-radius: 0 10px 10px 0;
 }
 
 .btn {
     background-color: hsl(0, 0%, 95%);
+    font-weight: 500;
     border: none;
+    margin-top: 35px;
 }
 
 .btn-one {
@@ -83,4 +86,22 @@ p {
     color: hsl(0, 0%, 95%);
     border: solid white;
     padding: 5px 20px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 500px) {
+    .flex {
+     display: flex;
+    }
+    .wrap {
+     flex-wrap: wrap;
+    }
 }
